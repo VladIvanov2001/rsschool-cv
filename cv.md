@@ -78,4 +78,5 @@
   3. CodeAcademy courses
 
 **8.** **English skills**:   
-  English at the university( Math + High Math + IT) + courses at Streamline ( at B2 level)  
+  * English at the university( Math + High Math + IT) 
+  * courses at Streamline ( at B2 level)  
