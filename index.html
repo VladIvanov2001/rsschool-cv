@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <title>CV page</title>
+</head>
+<body>
+    <main>
+        <h1 class="name">Vladislav Ivanov</h1>
+
+        <figure class="post-item">
+            <img src="https://sun9-47.userapi.com/c834101/v834101011/d8f56/wpntRkVI67U.jpg" alt="My photo" width="220" height="350"/>
+        </figure>
+
+        <div class="contacts">
+             <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+             <p>+375336945132</p><br>
+             <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+             <p class= >vladislavivanov440@gmail.com</p>
+         </div>
+         <hr>
+
+        <h3>My dreams</h3>
+        <i class="fa fa-sun-o fa-lg" aria-hidden="true"></i>
+            <p class="dreams">I want to become a web-developer to provide my family and myself. Also I want to finish university.</p>
+        <hr>
+
+        <h3>My skills</h3>
+        <i class="fa fa-laptop fa-lg"  aria-hidden="true"></i>
+
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Little bit of React and JS</li>
+        </ul>
+
+        <hr>
+
+        <i class="fa fa-book fa-lg" aria-hidden="true"></i>
+
+        <h3 class="education">My education</h3>
+        <ul>
+             <li>MMF BSU : 2-nd year</li>
+             <li>MyFreedom courses(HTML, CSS)</li>
+             <li>CodeAcademy courses</li>
+         </ul>
+        <hr>
+        <h3 class="code">Code example</h3>
+        <i class="fa fa-code fa-lg" aria-hidden="true"></i>
+
+        <pre>
+            function read (str, restrictedSymbols) {
+            return Array.from(str).filter(x => !Array.from(restrictedSymbols).includes(x)).join("");
+            }
+            function begin() {
+            let text = document.getElementsByTagName("textarea")[0].value;
+            let array = read(text, ',').split(' ').map(x => +x);
+            document.getElementById("max").textContent = "Ваш наибольший элемент массива: " + maxValue(array);
+            document.getElementById("min").textContent = "Ваш наименьший элемент массива: " + minValue(array);
+            document.getElementById("sum").textContent = "Сумма элементов массивов: " + elementsSum(array);
+            document.getElementById("sorted").textContent = "Ваш отсортированный массив: " + sort(array);
+            }
+
+            function sort(arr) {
+            for(let i = 0; i<arr.length;i++){
+            for(let j=0; j < arr.length-i;j++){
+            if(arr[j] > arr[j + 1]){
+            let q = arr[j];
+            arr[j] = arr[j + 1];
+            arr[j + 1] = q;
+            }
+            }
+            }
+            return arr;
+            }
+
+            function elementsSum(arr) {
+            let sum = 0;
+            for (let i = 0; i < arr.length; i++) {
+            sum += arr[i];
+            }
+            return sum;
+            }
+
+            function maxValue(arr) {
+            let max = arr[0];
+            for (let i = 0; i<arr.length;i++){
+            if(arr[i]>max)
+            max=arr[i];
+            }
+            return max;
+            }
+
+            function minValue(arr) {
+            let min = arr[0];
+            for (let i = 0; i<arr.length;i++){
+            if(arr[i]<min) {
+            min = arr[i];
+            }
+            }
+            return min;
+            }
+        </pre>
+
+    </main>
+
+</body>
+</html>
