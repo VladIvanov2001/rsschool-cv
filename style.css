@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    text-align:center;
+    margin-bottom: 50px;
+}
+
+.contacts{
+    margin-top: 20px;
+}
+
+main{
+    width:1024px;
+    margin:0 auto;
+}
+
+.post-item{
+    margin-top: 30px;
+}
+
+.name{
+    margin-top: 30px;
+
+}
+
+hr{
+    height: .25em;
+    padding: 0;
+    margin: 24px 0;
+    background-color: #e1e4e8;
+    border: 0;
+}
+
+.dreams{
+    text-align: left;
+    margin-left: 30px;
+    font-size: 17px;
+}
+li{
+    text-align: left;
+    list-style-type: circle;
+    margin-left: 30px;
+}
+
+.fa-sun-o, .fa-laptop , .fa-code{
+    margin-left: -73px;
+    position: absolute;
+    margin-top: -34px;
+}
+
+.fa-book{
+    margin-left: -116px;
+    margin-top: 30px;
+}
+
+
+.fa-phone, .fa-envelope{
+    float: left;
+    margin-left: 30px;
+    margin-top: -5px;
+}
+
+h3{
+    padding-bottom: 15px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.contacts > p{
+    font-size: 18px;
+    text-align: left;
+    margin-left: 80px;
+}
+
+.code{
+    margin-left: 32px;
+    padding-bottom: 14px;
+
+}
+
+pre{
+    box-sizing: border-box;
+    margin: 0;
+    overflow: auto;
+    overflow-y: hidden;
+    font-size: 12px;
+    line-height: 20px;
+    background: #efefef;
+    border: 1px solid #777;
+    color: #333;
+}
+
+.education{
+    margin-top: -20px;
+    margin-left: 34px;
+}
+
